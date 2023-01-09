@@ -9,7 +9,7 @@
 		<meta name="keywords" content="Consultoria de Marketing, Consultoria de SEO, Agencia de Marketing">
 		<meta name="author" content="RS Web">
 		<title>RS Web - Consultoria de Marketing</title>
-		<link rel="shortcut icon" type="image/x-icon" href="{{url('/')}}/assets/images/favicon.ico" />
+		<link rel="shortcut icon" type="image/x-icon" href="{{url('/')}}/assets/images/favicon-rs-web-consultoria-de-marketing.webp" />
 		<!-- Bootstrap -->
 		<link href="{{url('/')}}/assets/css/bootstrap.css" rel="stylesheet">
 		<!-- font awesome -->
