@@ -1,0 +1,67 @@
+/* 
+Template Name: Halari
+Template URI: https://themeforest.net/item/halari-multi-purpose-parallax-business-landing-page-psd-template/24429840
+Description: Halari – Multi purpose Business landing page theme for Service, corporate, agency, Consulting, startup.
+Author: ashishmaraviya
+Author URI: https://themeforest.net/user/ashishmaraviya
+*/
+
+.slider_sec_3 .caption_info .inner-text-left {
+    max-width: 600px;
+    margin:0;
+    text-align: left;
+    position: relative; 
+    z-index: 9;
+}
+.slider_sec_3 .caption_info .inner-text-left h1{
+    margin: 0 0 25px 0;
+    font-size: 50px;
+    line-height: 55px;
+    border-left: 10px solid #5076db;
+    padding-left: 20px;
+}
+.slider_sec_3 .caption_info .inner-text-left p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+.slider_sec_3:before {
+    content: "";
+    width: 100%;
+    height: 150px;
+    background: url(../images/home_2_curve.png) top center no-repeat !important;
+    background-size: 100% 100% !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.package_sec_3 {
+    padding: 100px 0 210px 0;
+    position: relative;
+}
+.package_sec_3:before {
+    content: "";
+    width: 100%;
+    height: 150px;
+    background: url(../images/home_2_curve.png) top center no-repeat !important;
+    background-size: 100% 100% !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+}
+.footer_detail_3 { 
+	margin:110px 0 0 0; 
+	overflow: unset;
+}
+.footer_detail_3:before {
+    content: "";
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: -150px;
+    left: 0px;
+    z-index: 9;
+    background: url(../images/home_3_footer_curve.png) center top / 100% 100% no-repeat !important;
+}

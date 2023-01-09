@@ -1,0 +1,578 @@
+/* 
+Template Name: Halari
+Template URI: https://themeforest.net/item/halari-multi-purpose-parallax-business-landing-page-psd-template/24429840
+Description: Halari – Multi purpose Business landing page theme for Service, corporate, agency, Consulting, startup.
+Author: ashishmaraviya
+Author URI: https://themeforest.net/user/ashishmaraviya
+*/
+
+/*******  Nav Sec  *******/
+
+.nav_sec .navbar-light .navbar-nav .nav-link:hover,
+.nav_sec .navbar-light .navbar-nav .nav-link:focus {
+	color: #f4b41a;
+}
+
+.nav_sec .navbar-light .navbar-nav .show>.nav-link,
+.nav_sec .navbar-light .navbar-nav .active>.nav-link,
+.nav_sec .navbar-light .navbar-nav .nav-link.show,
+.nav_sec .navbar-light .navbar-nav .nav-link.active {
+	color: #f4b41a;
+}
+
+.nav_sec .navbar-light .navbar-nav .nav-link:hover:before {
+	background: #f4b41a;
+}
+
+.nav_sec .dropdown-item:hover,
+.nav_sec .dropdown-item.active {
+	background: #f4b41a;
+}
+
+.nav_sec .navbar-light .navbar-nav li.active:before {
+	background: #f4b41a;
+}
+
+.nav_sec .navbar-brand .blue {
+	color: #f4b41a;
+}
+
+.nav_sec .navbar-brand .green {
+	color: #143d57;
+}
+
+
+/*******  Slider Sec  *******/
+
+.slider_sec .caption_info h1 span {
+	color: #f4b41a;
+}
+
+.slider_sec .caption_info h1 .typer {
+	color: #f4b41a !important;
+}
+
+.slider_sec .caption_info .inner-text-left h1 {
+	border-left: 10px solid #143d59;
+}
+
+.store_btn {
+	background: #143d59;
+}
+
+.store_btn.green {
+	background: #f4b41a;
+}
+
+.slider_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.slider_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #f4b41a !important;
+	border-color: #f4b41a;
+}
+
+.buy_btn {
+	background: #143d59;
+	box-shadow: 0 9px 20px rgba(20, 61, 89, 0.30);
+}
+
+.radial-out:hover {
+	background: #143d59;
+}
+
+.radial-out:before {
+	background: #f4b41a;
+}
+
+
+/*******  About Sec  *******/
+
+.about_sec .about-img:before {
+	background-image: url(../images/about/2.png);
+}
+
+.about_sec .about-img:after {
+	background-color: #143d59;
+}
+
+/*******  Service Sec  *******/
+
+.service_sec .service_block:hover h3 {
+	color: #143d59;
+}
+
+.service_sec .service_block:hover .move_link {
+	color: #143d59;
+}
+
+.service_sec .service_block figure {
+	background: url(../images/s_b_1.png) top center no-repeat;
+}
+
+.service_sec .service_block:hover figure {
+	background: url(../images/s_b_1_h.png) top center no-repeat;
+}
+
+.service_sec .service_block_2 figure {
+	background: url(../images/s_b_2.png) top center no-repeat;
+}
+
+.service_sec .service_block_2:hover figure {
+	background: url(../images/s_b_2_h.png) top center no-repeat;
+}
+
+.service_sec .service_block_3 figure {
+	background: url(../images/s_b_3.png) top center no-repeat;
+}
+
+.service_sec .service_block_3:hover figure {
+	background: url(../images/s_b_3_h.png) top center no-repeat;
+}
+
+.service_sec .service_block_4 figure {
+	background: url(../images/s_b_4.png) top center no-repeat;
+}
+
+.service_sec .service_block_4:hover figure {
+	background: url(../images/s_b_4_h.png) top center no-repeat;
+}
+
+.service_sec .service_block_5 figure {
+	background: url(../images/s_b_5.png) top center no-repeat;
+}
+
+.service_sec .service_block_5:hover figure {
+	background: url(../images/s_b_5_h.png) top center no-repeat;
+}
+
+.service_sec .service_block_6 figure {
+	background: url(../images/s_b_6.png) top center no-repeat;
+}
+
+.service_sec .service_block_6:hover figure {
+	background: url(../images/s_b_6_h.png) top center no-repeat;
+}
+
+
+/*******  Skill Sec  *******/
+
+.skill_sec .progress .track,
+.progress .fill {
+	stroke: #f4b41a;
+}
+
+.skill_sec .progress.blue .fill {
+	stroke: #143d59;
+}
+
+.skill_sec .progress .track {
+	stroke: #d7d7d7;
+}
+
+.skill_sec .progress.green .fill {
+	stroke: #f4b41a;
+}
+
+
+/*******  Portfolio Sec  *******/
+
+.portfolio_sec figure:hover .caption_global {
+	border-color: #143d59;
+}
+
+
+/*******  Count Sec  *******/
+
+.count_sec .count_block h3 strong {
+	color: #f4b41a;
+}
+
+
+/*******  Team Sec  *******/
+
+.team_sec .caption_global {
+	background: rgba(20, 61, 89, 0.9);
+}
+
+ul.team_social li a:hover {
+	background: #f4b41a;
+}
+
+.team_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.team_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #f4b41a !important;
+	border-color: #f4b41a;
+}
+
+.team_sec .owl-carousel .owl-dot span {
+	background: #f4b41a;
+}
+
+.team_sec .owl-carousel .owl-dot.active span {
+	background: #f4b41a;
+}
+
+
+/*******  Package Sec  *******/
+
+.package_sec .owl-item.active.center .package_block {
+	background: #143d59;
+}
+
+.package_sec .owl-item.active.center .package_block h3 {
+	color: #f4b41a;
+}
+
+.package_sec .package_block h3 {
+	color: #143d59;
+}
+
+ul.package_list li:before {
+	color: #f4b41a;
+}
+
+.package_sec .buy_btn {
+	background: #143d59;
+}
+
+.package_sec .owl-item.active.center .package_block .buy_btn {
+	background: #f4b41a;
+}
+
+.package_sec .owl-item.active.center .radial-out:hover {
+	background: #fff;
+	color: #000;
+}
+
+.package_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.package_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #143d59 !important;
+	border-color: #143d59;
+}
+
+
+/*******  Testimonial Sec  *******/
+
+.testimonial_sec .other_info i {
+	background: url(../images/quote_img_yellow.png) top right no-repeat;
+}
+
+.testimonial_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.testimonial_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #f4b41a !important;
+	border-color: #f4b41a;
+}
+
+.testimonial_sec .owl-carousel .owl-dot span {
+	background: #f4b41a;
+}
+
+.testimonial_sec .owl-carousel .owl-dot.active span {
+	background: #f4b41a;
+}
+
+
+/*******  Blog Sec  *******/
+
+.blog_sec .blog_info .blog_img label {
+	background: #143d59;
+}
+
+.blog_sec .blog_info:hover h3 a {
+	color: #143d59;
+}
+
+.blog_sec .other_info a {
+	color: #143d59;
+}
+
+.blog_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.blog_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #f4b41a !important;
+	border-color: #f4b41a;
+}
+
+.blog_sec .owl-carousel .owl-dot span {
+	background: #f4b41a;
+}
+
+.blog_sec .owl-carousel .owl-dot.active span {
+	background: #f4b41a;
+}
+
+
+/*******  Instagram Sec  *******/
+
+.instagram_sec .insta_block:hover .caption_global {
+	border-color: #143d59;
+}
+
+.instagram_sec .owl-carousel .owl-nav button.owl-prev:hover,
+.instagram_sec .owl-carousel .owl-nav button.owl-next:hover {
+	background: #f4b41a !important;
+	border-color: #f4b41a;
+}
+
+.instagram_sec .owl-carousel .owl-dot span {
+	background: #f4b41a;
+}
+
+.instagram_sec .owl-carousel .owl-dot.active span {
+	background: #f4b41a;
+}
+
+
+/*******  Footer Sec  *******/
+
+.footer_detail .subscribe_btn {
+	background: #143d59;
+}
+
+ul.footer_link li a:hover {
+	color: #f4b41a;
+}
+
+ul.add_info li a:hover {
+	color: #f4b41a;
+}
+
+ul.footer_social li a:hover {
+	color: #f4b41a;
+}
+
+ul.footer_social li a:hover i {
+	border-color: #f4b41a;
+	color: #f4b41a;
+}
+
+.copyright span {
+	color: #f4b41a;
+}
+
+
+/*******  To Top  *******/
+
+#return-to-top {
+	background: #f4b41a;
+}
+
+#return-to-top:hover {
+	background: #143d59;
+}
+
+
+/*******  Inner Page  *******/
+
+.inner_banner h1 span {
+	color: #f4b41a;
+}
+
+ul.breadcrum li {
+	color: #f4b41a;
+}
+
+.service_sec.service_inn .inner {
+	background: url(../images/s_b_y.png) bottom center no-repeat;
+}
+
+.service_sec .service_inn_block:hover h3 {
+	color: #143d59;
+}
+
+.service_sec .service_inn_block figure {
+	width: 80px;
+	height: 80px;
+	float: right;
+	margin: 0;
+	padding: 0;
+	border: 2px solid #dcdcdc;
+	border-radius: 50px;
+	background: url(../images/s_b_1.png) center center no-repeat;
+}
+
+.service_sec.service_inn .left_info .service_inn_block:hover:nth-child(1) figure {
+	background: url(../images/s_b_1_h.png) center center no-repeat;
+}
+
+.service_sec.service_inn .left_info .service_inn_block:hover:nth-child(2) figure {
+	background: url(../images/s_b_4_h.png) center center no-repeat;
+}
+
+.service_sec.service_inn .left_info .service_inn_block:hover:nth-child(3) figure {
+	background: url(../images/s_b_5_h.png) center center no-repeat;
+}
+
+.service_sec.service_inn .right_info .service_inn_block:hover:nth-child(1) figure {
+	background: url(../images/s_b_2_h.png) center center no-repeat;
+}
+
+.service_sec.service_inn .right_info .service_inn_block:hover:nth-child(2) figure {
+	background: url(../images/s_b_3_h.png) center center no-repeat;
+}
+
+.service_sec.service_inn .right_info .service_inn_block:hover:nth-child(3) figure {
+	background: url(../images/s_b_6_h.png) center center no-repeat;
+}
+
+.service_sec.service_inn .left_info .service_inn_block:nth-child(2) figure {
+	background: url(../images/s_b_4.png) center center no-repeat;
+}
+
+.service_sec.service_inn .left_info .service_inn_block:nth-child(3) figure {
+	background: url(../images/s_b_5.png) center center no-repeat;
+}
+
+.service_sec.service_inn .right_info .service_inn_block:nth-child(1) figure {
+	background: url(../images/s_b_2.png) center center no-repeat;
+}
+
+.service_sec.service_inn .right_info .service_inn_block:nth-child(2) figure {
+	background: url(../images/s_b_3.png) center center no-repeat;
+}
+
+.service_sec.service_inn .right_info .service_inn_block:nth-child(3) figure {
+	background: url(../images/s_b_6.png) center center no-repeat;
+}
+
+.package_sec.package_inn .package_block.select {
+	background: #143d59;
+}
+
+.package_sec.package_inn .package_block.select h3 {
+	color: #f4b41a;
+}
+
+.package_sec.package_inn .package_block.select ul.package_list li {
+	color: #8aabc2;
+}
+
+.package_sec.package_inn .package_block.select .buy_btn {
+	background: #f4b41a;
+}
+
+.package_sec.package_inn .package_block.select .radial-out:hover {
+	background: #fff;
+	color: #000;
+}
+
+.package_sec.sec_pricing .package_block .top_info {
+	background: #143d59;
+}
+
+.package_sec.third_pricing .package_block:hover .top_info {
+	background: #f4b41a;
+}
+
+.package_sec.third_pricing .package_block:hover .buy_btn {
+	background: #f4b41a;
+}
+
+.package_sec.sec_pricing .package_block .top_info:before {
+	background: url(../images/pricing_curve_yellow.png) top left no-repeat;
+}
+
+/*layout 2 color css */
+.slider_sec_2:before, .service_sec_2:after, .portfolio_sec_2:after, .package_sec_2:after, .work_sec_2:after, .instagram_sec_2:after{
+	background: url(../images/slider_curve.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.footer_detail_2:before{
+	background:url(../images/footer_curve.png) top center no-repeat; 
+	background-size:100% 100%; 
+}
+
+/*layout 2 color css */
+.slider_sec_2:before{
+	background: url(../images/s_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.service_sec_2:before{
+	background: url(../images/service_curve.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.service_sec_2:after{
+	background: url(../images/s_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.portfolio_sec_2:before{
+	background: url(../images/service_curve.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.portfolio_sec_2:after{
+	background: url(../images/s_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.team_sec_2:before{
+	background: url(../images/service_curve.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.package_sec_2:before{
+	background: url(../images/package_curve.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.package_sec_2:after{
+	background: url(../images/s_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.work_sec_2:before{
+	background: url(../images/service_curve.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.work_sec_2:after{
+	background: url(../images/s_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.instagram_sec_2:before{
+	background: url(../images/service_curve.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.instagram_sec_2:after{
+	background: url(../images/s_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.footer_detail_2:before{
+	background:url(../images/f_c_b.png) top center no-repeat; 
+	background-size:100% 100%; 
+}
+
+
+/*layout 4 color css */
+.slider_sec_4:before{
+	background: url(../images/home_4_c_b.png) top center no-repeat;
+	background-size: 100% 100%;
+}
+.service_sec_4:before{
+	background: url(../images/h_s_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.service_sec_4:after{
+	background: url(../images/home_4_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.portfolio_sec_4:before{
+	background: url(../images/h_s_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.portfolio_sec_4:after{
+	background: url(../images/home_4_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.team_sec_4:before{
+	background: url(../images/h_s_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.package_sec_4:before{
+	background: url(../images/h_p_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.work_sec_4:before{
+	background: url(../images/h_w_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.instagram_sec_4:before{
+	background: url(../images/home_4_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
+.footer_detail_4:before{
+	background: url(../images/h_s_c_b.png) top center no-repeat;
+    background-size: 100% 100%;
+}
