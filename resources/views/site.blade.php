@@ -162,7 +162,7 @@
 									<text class="value" x="50%" y="58%">0%</text>
 								</svg>
 								<h3>Consultoria de Marketing</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting ever since.</p>
+								<p>A consultoria de marketing é uma forma de ajudar as empresas a desenvolver e implementar estratégias de marketing eficazes.</p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-sm-6">
@@ -173,7 +173,7 @@
 									<text class="value" x="50%" y="58%">0%</text>
 								</svg>
 								<h3>Consultoria de Negócios</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting ever since.</p>
+								<p>Leve sua Empresa Para Um Outro Nível, Identificamos as melhores oportunidades para você</p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-sm-6">
@@ -183,8 +183,8 @@
 									<path class="fill" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
 									<text class="value" x="50%" y="58%">0%</text>
 								</svg>
-								<h3>Consultoria em Identidade Visual</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting ever since.</p>
+								<h3>Consultoria em Análise de Dados</h3>
+								<p>Fazemos uma Análise Completa dos Dados da sua Empresa para você tomar as Melhores Decisões</p>
 							</div>
 						</div>
 						<div class="col-lg-3 col-sm-6">
@@ -192,10 +192,10 @@
 								<svg class="progress noselect" data-progress="50" x="0px" y="0px" viewBox="0 0 80 80">
 									<path class="track" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
 									<path class="fill" d="M5,40a35,35 0 1,0 70,0a35,35 0 1,0 -70,0" />
-									<text class="value" x="50%" y="58%">0%</text>
+									<text class="value" x="50%" y="98%">0%</text>
 								</svg>
 								<h3>Suporte 24/7 horas</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting ever since.</p>
+								<p>Estamos disponíveis! Envie-nos Mensagem a Qualquer Momento que Solucionaremos seu Problema o Quanto Antes!</p>
 							</div>
 						</div>
 					</div>
@@ -206,25 +206,22 @@
 		<!-- Team Sec -->
 		<section class="team_sec">
 			<div class="container">
-				<h2 class="global_title">Nosso Portfólio </h2>
+				<h2 class="global_title">Alguns de Nossos Clientes </h2>
 				<div class="inner">
 					<div class="owl-carousel team_slider">
 						<div class="item">
 							<div class="team_block">
 								<figure>
-									<img src="{{url('/')}}/assets/images/team_img_1.png" alt="">
-									<h3>John Deo <small>Co-Founder</small></h3>
+									<img src="{{url('/')}}/assets/images/portfolio/consultoria-de-marketing-emerson-powergen.webp" alt="Consultoria de Marketing - Emerson Power Gen" title="Consultoria de Marketing - Emerson Power Gen">
+									<h3>Emerson PowerGen <small>Manutenção de Sites</small></h3>
 								</figure>
 								<div class="caption_global">
 									<div class="cap_inn">
 										<div class="cap_info">
-											<h4>John Deo <small>Co-Founder</small></h4>
-											<p>Lorem Ipsum is simply dummy  of the printing & typesetting industry. Lorem Ipsum has been the industry's standard text ever.</p>
+											<h4>Emerson PowerGen <small>Manutenção de Sites</small></h4>
+											<p>A RS Web trabalha na manutenção e atualizações necessárias para o desenvolvimento dos projetos da empresa Emerson PowerGen</p>
 											<ul class="team_social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-												<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+												<li><a href="https://emersonpowergen.com.br" target="_BLANK"><i class="fa fa-paper-plane-o"></i></a></li>
 											</ul>
 										</div>
 									</div>
@@ -234,19 +231,16 @@
 						<div class="item">
 							<div class="team_block">
 								<figure>
-									<img src="{{url('/')}}/assets/images/team_img_2.png" alt="">
-									<h3>John Deo <small>Co-Founder</small></h3>
+									<img src="{{url('/')}}/assets/images/portfolio/consultoria-de-marketing-comprar-online.webp" alt="Consultoria de Marketing - Comprar Online" title="Consultoria de Marketing - Comprar Online">
+									<h3>Comprar Online<small>Criação / Manutenção</small></h3>
 								</figure>
 								<div class="caption_global">
 									<div class="cap_inn">
 										<div class="cap_info">
-											<h4>John Deo <small>Co-Founder</small></h4>
-											<p>Lorem Ipsum is simply dummy  of the printing & typesetting industry. Lorem Ipsum has been the industry's standard text ever.</p>
+											<h4>Comprar Online<small>Criação / Manutenção</small></h4>
+											<p>A RS Web trabalha na manutenção e desenvolvimento constante do site Comprar Online</p>
 											<ul class="team_social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-												<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+												<li><a href="https://comprar-online.net" target="_BLANK"><i class="fa fa-paper-plane-o"></i></a></li>
 											</ul>
 										</div>
 									</div>
@@ -256,19 +250,16 @@
 						<div class="item">
 							<div class="team_block">
 								<figure>
-									<img src="{{url('/')}}/assets/images/team_img_3.png" alt="">
-									<h3>Sunny Roy <small>Co-Founder</small></h3>
+									<img src="{{url('/')}}/assets/images/portfolio/consultoria-de-marketing-bitemoney.webp" alt="Consultoria de Marketing - Bitemoney" title="Consultoria de Marketing - Bitemoney">
+									<h3>Bitemoney <small>Criação / Manutenção</small></h3>
 								</figure>
 								<div class="caption_global">
 									<div class="cap_inn">
 										<div class="cap_info">
-											<h4>Sunny Roy <small>Co-Founder</small></h4>
-											<p>Lorem Ipsum is simply dummy  of the printing & typesetting industry. Lorem Ipsum has been the industry's standard text ever.</p>
+											<h4>Bitemoney <small>Criação / Manutenção</small></h4>
+											<p>A Função da RS Web é manter o blog Bitemoney no ar, cuidando da arquitetura e SEO do projeto.</p>
 											<ul class="team_social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-												<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+												<li><a href="https://bitemoney.com.br" target="_BLANK"><i class="fa fa-paper-plane-o"></i></a></li>
 											</ul>
 										</div>
 									</div>
@@ -278,19 +269,18 @@
 						<div class="item">
 							<div class="team_block">
 								<figure>
-									<img src="{{url('/')}}/assets/images/team_img_4.png" alt="">
-									<h3>John Deo <small>Co-Founder</small></h3>
+									<img src="{{url('/')}}/assets/images/portfolio/consultoria-de-marketing-advogado-das-transportadoras.webp" alt="Consultoria de Marketing - Advogado das Transportadoras" title="Consultoria de Marketing - Advogado das Transportadoras">
+									<h3>Advogado das Transportadoras <small>Criação / Manutenção</small></h3>
 								</figure>
 								<div class="caption_global">
 									<div class="cap_inn">
 										<div class="cap_info">
-											<h4>John Deo <small>Co-Founder</small></h4>
-											<p>Lorem Ipsum is simply dummy  of the printing & typesetting industry. Lorem Ipsum has been the industry's standard text ever.</p>
+											<h4>Advogado das Transportadoras <small>Criação / Manutenção</small></h4>
+											<p>A RS Web é responsável pela constante atualização nas mídias sociais e SEO local do site Advogado das Transportadoras</p>
 											<ul class="team_social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-												<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+												<li><a href="https://advogadodastransportadoras.com.br" target="_BLANK"><i class="fa fa-paper-plane-o"></i></a></li>
+												<li><a href="https://www.instagram.com/advogadodastransportadoras/" target="_BLANK"><i class="fa fa-instagram"></i></a></li>
+
 											</ul>
 										</div>
 									</div>
@@ -300,25 +290,43 @@
 						<div class="item">
 							<div class="team_block">
 								<figure>
-									<img src="{{url('/')}}/assets/images/team_img_2.png" alt="">
-									<h3>John Deo <small>Co-Founder</small></h3>
+									<img src="{{url('/')}}/assets/images/portfolio/consultoria-de-marketing-nelson-tanuma-adv.webp" alt="Consultoria de Marketing - Nelson Tanuma" title="Consultoria de Marketing - Nelson Tanuma">
+									<h3>Nelson Tanuma <small>Criação</small></h3>
 								</figure>
 								<div class="caption_global">
 									<div class="cap_inn">
 										<div class="cap_info">
-											<h4>John Deo <small>Co-Founder</small></h4>
-											<p>Lorem Ipsum is simply dummy  of the printing & typesetting industry. Lorem Ipsum has been the industry's standard text ever.</p>
+											<h4>Nelson Tanuma <small>Criação</small></h4>
+											<p>A RS Web mantém suporte no servidor e atualizações periódicas na landing page Nelson Tanuma</p>
 											<ul class="team_social">
-												<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-												<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-												<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-												<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+												<li><a href="https://nelsontanumaadv.com.br" target="_BLANK"><i class="fa fa-paper-plane-o"></i></a></li>
 											</ul>
 										</div>
 									</div>
 								</div>
 							</div>
 						</div>
+
+						<div class="item">
+							<div class="team_block">
+								<figure>
+									<img src="{{url('/')}}/assets/images/portfolio/consultoria-de-marketing-ecm-mudancas.webp"  alt="Consultoria de Marketing - ECM Mudanças" title="Consultoria de Marketing - ECM Mudanças">
+									<h3>ECM Mudanças <small>Criação / Manutenção</small></h3>
+								</figure>
+								<div class="caption_global">
+									<div class="cap_inn">
+										<div class="cap_info">
+											<h4>ECM Mudanças <small>Criação / Manutenção</small></h4>
+											<p>É trabalhado no site ECM Mudanças a manutenção constante do servidor e E-mails, Design e SEO do projeto.</p>
+											<ul class="team_social">
+												<li><a href="https://ecmmudancas.com.br" target="_BLANK"><i class="fa fa-paper-plane-o"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
@@ -360,52 +368,47 @@
 					<div class="owl-carousel package_slider">
 						<div class="item">
 							<div class="package_block">
-								<h3>Plano 3</h3>
-								<div class="price">$150 <small>/month</small> </div>
+								<h3>Meta Ouro</h3>
+								<div class="price">R$3.500,00 <small>/mês</small> </div>
 								<ul class="package_list">
-									<li><i class="fa fa-check" aria-hidden="true"></i>10GB Storage</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>40GB <span>Bandwidth</span></li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>1 SQL Database</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>5 Email Account</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>Free Domain</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>24/7 Support</li>
+								<li><i class="fa fa-check" aria-hidden="true"></i>Consultoria de Marketing em SEO</li>
+									<li><i class="fa fa-check" aria-hidden="true"></i>Pacote de Redação</li>
+									<li><i class="fa fa-check" aria-hidden="true"></i>Mídias Sociais </li>
+									<li><i class="fa fa-check" aria-hidden="true"></i>Acompanhamento de resultados personalizado com Engenheiro 24/7</li>
+
 								</ul>
 								<div class="btn-block text-center">
-									<a href="#" class="buy_btn radial-out">Buy Now</a>                        
+									<a href="#" class="buy_btn radial-out">Adquirir Agora</a>                        
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="package_block">
-								<h3>Plano 2</h3>
-								<div class="price">$175<small>/month</small></div>
+								<h3>Meta Prata</h3>
+								<div class="price">R$2.499,90<small>/mês</small></div>
 								<ul class="package_list">
-									<li><i class="fa fa-check" aria-hidden="true"></i>100GB Storage</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>400GB Bandwidth</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>5 SQL <span>Database</span></li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>10 Email Account</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>5 Free Domain</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>24/7 Support</li>
+									<li><i class="fa fa-check" aria-hidden="true"></i>Consultoria de Marketing em SEO Exclusiva</li>
+									<li><i class="fa fa-check" aria-hidden="true"></i>Pacote de Redação</li>
+									<li><i class="fa fa-check" aria-hidden="true"></i>Mídias Sociais </li>
+									<li><i class="fa fa-check" aria-hidden="true"></i>E-mail Marketing</li>
+
 								</ul>
 								<div class="btn-block text-center">
-									<a href="#" class="buy_btn radial-out">Buy Now</a>                        
+									<a href="#" class="buy_btn radial-out">Adquirir Agora</a>                        
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="package_block">
-								<h3>Plano 1</h3>
-								<div class="price"> $00 <small>/month</small> </div>
+								<h3>Meta Bronze</h3>
+								<div class="price"> R$1.499,90 <small>/mês</small> </div>
 								<ul class="package_list">
-									<li><i class="fa fa-check" aria-hidden="true"></i>1GB Cloud <span>Storage</span></li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>5GB Bendwith</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>1 SQL Database </li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>1 Email Account</li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>Free <span>Domain</span></li>
-									<li><i class="fa fa-check" aria-hidden="true"></i>No Support</li>
+									<li><i class="fa fa-check" aria-hidden="true"></i>Consultoria de Marketing em SEO Exclusiva</li>
+									<li><i class="fa fa-check" aria-hidden="true"></i>Pacote de Redação</li>
+									<li><i class="fa fa-check" aria-hidden="true"></i>Mídias Sociais </li>
 								</ul>
 								<div class="btn-block text-center">
-									<a href="#" class="buy_btn radial-out">Buy Now</a>                        
+									<a href="#" class="buy_btn radial-out">Adquirir Agora</a>                        
 								</div>
 							</div>
 						</div>
@@ -476,7 +479,7 @@
 			<div class="container work_sec_container">
 				<div class="work-info">
 					<h2 class="global_title white">Consultoria de Marketing Gratuita Exclusiva</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in sodales justo. Vestibulum finibus mauris quam, </p>
+					<p>Venha ter mais resultados! Temos como Presente uma Consultoria de Marketing Exclusiva Para Sua Empresa, Confira! </p>
 					<a href="#" class="buy_btn radial-out">Agendar Consultoria Exclusiva</a>    
 				</div>
 			</div>
@@ -612,16 +615,15 @@
 				<h2 class="global_title">Entre em Contato Conosco</h2>
 				<div class="row">
 					<div class="col-md-6 col-sm-12">
-						<input type="text" class="form-control" placeholder="First Name">
-						<input type="text" class="form-control" placeholder="Last Name">
-						<input type="text" class="form-control" placeholder="Email Address">
+						<input type="text" class="form-control" placeholder="Seu Nome">
+						<input type="text" class="form-control" placeholder="E-mail">
 					</div>
 					<div class="col-md-6 col-sm-12">
-						<input type="text" class="form-control" placeholder="Phone">
-						<textarea class="form-control field" placeholder="Message"></textarea>
+						<input type="text" class="form-control" placeholder="Telefone">
+						<textarea class="form-control field" placeholder="Mensagem"></textarea>
 					</div>
 					<div class="btn-block text-center">
-						<button class="buy_btn radial-out">Submit Now</button>
+						<button class="buy_btn radial-out">Enviar</button>
 					</div>
 				</div>
 			</div>
@@ -658,9 +660,7 @@
 							<div class="col-lg-2 col-sm-6">
 								<h3>Redes Sociais</h3>
 								<ul class="footer_social">
-									<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
-									<li><a href="#"><i class="fa fa-instagram"></i> Instagram</a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+									<li><a href="https://www.instagram.com/rsweb_oficial/"><i class="fa fa-instagram"></i> Instagram</a></li>
 								</ul>
 							</div>
 						</div>

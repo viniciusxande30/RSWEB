@@ -1172,7 +1172,7 @@ ul.team_social li a:hover i {
 .package_sec {
 	width: 100%;
 	margin: 0;
-	background: url(../images/package_bg.jpg) center center no-repeat fixed;
+	background: url(../images/banners/consultoria-de-marketing-banner.webp) center center no-repeat fixed;
 	background-size: cover !important;
     background-repeat: no-repeat;
     background-position: top;
@@ -1632,7 +1632,7 @@ ul.package_list li span {
 .work_sec {
 	width: 100%;
 	margin: 0;
-	background: url(../images/work_bg.jpg) center center no-repeat fixed;
+	background: url(../images/banners/consultoria-de-marketing-agenda.webp) center center no-repeat fixed;
 	background-size: cover;
 	text-align: center;
 	overflow: hidden;
