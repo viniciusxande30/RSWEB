@@ -424,52 +424,41 @@
 					<div class="owl-carousel testimonial_slider">
 						<div class="item">
 							<div class="testi_block">
-								<p>“Lorem ipsum dolor consectetur adipiscing elit. Vestibulum sit amet nisi a augue consectetur viverra. Proin eleifend the libero, a iaculis lectus consectetur of sit amet. aliquam, mauris elementum egestas”</p>
+								<p>“Ótima agência, me ajudou muito nos trabalhos em SEO”</p>
 							</div>
 							<div class="other_info">
 								<figure><img src="{{url('/')}}/assets/images/testimonial_img_1.jpg" alt=""></figure>
 								<div class="detail">
-									<h3>John Deo <small>Co-Founder</small></h3>
+									<h3>Ricardo Alencar <small>Coordenadora Comercial</small></h3>
 									<i></i>                        
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="testi_block">
-								<p>“Lorem ipsum dolor consectetur adipiscing elit. Vestibulum sit amet nisi a augue consectetur viverra. Proin eleifend the libero, a iaculis lectus consectetur of sit amet. aliquam, mauris elementum egestas”</p>
+								<p>“Consultoria muito boa, ajudou minha empresa a chegar em ótimos resultados.”</p>
 							</div>
 							<div class="other_info">
 								<figure><img src="{{url('/')}}/assets/images/testimonial_img_2.jpg" alt=""></figure>
 								<div class="detail">
-									<h3>Sunny Roy <small>Co-Founder</small></h3>
+									<h3>Juliana Silva Ratanaka <small>Gestora de Varejo</small></h3>
 									<i></i>                        
 								</div>
 							</div>
 						</div>
 						<div class="item">
 							<div class="testi_block">
-								<p>“Lorem ipsum dolor consectetur adipiscing elit. Vestibulum sit amet nisi a augue consectetur viverra. Proin eleifend the libero, a iaculis lectus consectetur of sit amet. aliquam, mauris elementum egestas”</p>
+								<p>“Obrigada por nos apoiar, consultoria do plano Meta Ouro dá muito resultado”</p>
 							</div>
 							<div class="other_info">
 								<figure><img src="{{url('/')}}/assets/images/testimonial_img_1.jpg" alt=""></figure>
 								<div class="detail">
-									<h3>John Deo <small>Co-Founder</small></h3>
+									<h3>Leonice de Jesus <small>Empresária</small></h3>
 									<i></i>                        
 								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="testi_block">
-								<p>“Lorem ipsum dolor consectetur adipiscing elit. Vestibulum sit amet nisi a augue consectetur viverra. Proin eleifend the libero, a iaculis lectus consectetur of sit amet. aliquam, mauris elementum egestas”</p>
-							</div>
-							<div class="other_info">
-								<figure><img src="{{url('/')}}/assets/images/testimonial_img_2.jpg" alt=""></figure>
-								<div class="detail">
-									<h3>Sunny Roy <small>Co-Founder</small></h3>
-									<i></i>                        
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -495,11 +484,11 @@
 								<figure class="blog_img"><a href="#"><img src="{{url('/')}}/assets/images/blog_img_1.jpg" alt=""></a><label>July 30,2019</label>
 								</figure>
 								<div class="detail">
-									<h3><a href="#">Lorem Ipsum is a dummy</a></h3>
-									<p>Lorem Ipsum is simply dummy text of the a printing and typesetting ever since industry.</p>
+									<h3><a href="#">Postagem</a></h3>
+									<p>Descrição Postagem</p>
 									<div class="other_info">
 										<figure><img src="{{url('/')}}/assets/images/blog_user_1.jpg" alt=""></figure>
-										<h4>John Deo</h4>
+										<h4>Descrição</h4>
 										<a href="#"><span>&#8640;</span></a>                            
 									</div>
 								</div>
@@ -510,11 +499,11 @@
 								<figure class="blog_img"><a href="#"><img src="{{url('/')}}/assets/images/blog_img_2.jpg" alt=""></a><label>July 25,2019</label>
 								</figure>
 								<div class="detail">
-									<h3><a href="#">Lorem Ipsum is a dummy</a></h3>
-									<p>Lorem Ipsum is simply dummy text of the a printing and typesetting ever since industry.</p>
+									<h3><a href="#">Postagem</a></h3>
+									<p>Postagem</p>
 									<div class="other_info">
 										<figure><img src="{{url('/')}}/assets/images/blog_user_2.jpg" alt=""></figure>
-										<h4>Sunny Roy</h4>
+										<h4>Postagem</h4>
 										<a href="#"><span>&#8640;</span></a>                            
 									</div>
 								</div>
@@ -525,26 +514,11 @@
 								<figure class="blog_img"><a href="#"><img src="{{url('/')}}/assets/images/blog_img_3.jpg" alt=""></a><label>July 22,2019</label>
 								</figure>
 								<div class="detail">
-									<h3><a href="#">Lorem Ipsum is a dummy</a></h3>
-									<p>Lorem Ipsum is simply dummy text of the a printing and typesetting ever since industry.</p>
+									<h3><a href="#">Postagem</a></h3>
+									<p>Postagem</p>
 									<div class="other_info">
 										<figure><img src="{{url('/')}}/assets/images/blog_user_3.jpg" alt=""></figure>
-										<h4>David Smith</h4>
-										<a href="#"><span>&#8640;</span></a>                            
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="blog_info">
-								<figure class="blog_img"><a href="#"><img src="{{url('/')}}/assets/images/blog_img_1.jpg" alt=""></a><label>July 30,2019</label>
-								</figure>
-								<div class="detail">
-									<h3><a href="#">Lorem Ipsum is a dummy</a></h3>
-									<p>Lorem Ipsum is simply dummy text of the a printing and typesetting ever since industry.</p>
-									<div class="other_info">
-										<figure><img src="{{url('/')}}/assets/images/blog_user_1.jpg" alt=""></figure>
-										<h4>John Deo</h4>
+										<h4>Postagem</h4>
 										<a href="#"><span>&#8640;</span></a>                            
 									</div>
 								</div>
