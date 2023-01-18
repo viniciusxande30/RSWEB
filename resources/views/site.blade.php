@@ -1,4 +1,11 @@
-@include('includes.top')		
+@include('includes.top')	
+
+
+<?php
+Header("HTTP/1.1 301 Moved Permanently");
+Header("Location: http://rsweb.com.br/");
+?>
+
 		<!-- Slider Sec -->
 		<section class="slider_sec slider_sec_3">
 			<div class="owl-carousel hero_slider hero_slider_3">

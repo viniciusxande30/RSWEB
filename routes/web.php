@@ -17,8 +17,6 @@ use App\Http\Controllers\Controller;
 //     return view('site');
 // });
 
-Route::redirect('/public', '/', 301);
-
 Route::get('/', [Controller::class, 'homeIndex'])->name('homeIndex');
 Route::get('/sobre-a-rs-web', [Controller::class, 'aboutUs'])->name('aboutUs');
 Route::get('/servicos-de-marketing', [Controller::class, 'marketServices'])->name('marketServices');
@@ -31,4 +29,3 @@ Route::get('consultoria-de-marketing-em-{origin}',[Controller::class,'consultori
 //Route::get('transportadoras/{companies}',[Controller::class,'companiesPerfil'])->name('companiesPerfil');
 //Route::get('/cotacao-enviada',[Controller::class,'sendQuotation'])->name('sendQuotation');
 //Route::post('cotacao',[Controller::class,'quotationApi'])->name('quotationApi');
-Route::redirect('/public', '/', 301);
