@@ -33,4 +33,4 @@ Route::get('criacao-de-sites-em-{origin}',[Controller::class,'sitescreateQuotati
 
 //Route::get('transportadoras/{companies}',[Controller::class,'companiesPerfil'])->name('companiesPerfil');
 //Route::get('/cotacao-enviada',[Controller::class,'sendQuotation'])->name('sendQuotation');
-//Route::post('cotacao',[Controller::class,'quotationApi'])->name('quotationApi');
+Route::post('/cotacao-enviada',[Controller::class,'quotationApi'])->name('quotationApi');

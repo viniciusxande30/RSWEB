@@ -1,21 +1,24 @@
 <section class="form_info form_inn">
 			<div class="container">
 				<h2 class="global_title">Entre em Contato Conosco</h2>
+                <form method="POST" action="{{url('/')}}/cotacao-enviada">
+                    @csrf
 				<div class="inner">
 					<div class="row">
 						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-							<input type="text" class="form-control" placeholder="Nome Completo">
-							<input type="text" class="form-control" placeholder="Endereço de E-mail">
+							<input type="text" class="form-control" placeholder="Nome Completo" name="name">
+							<input type="text" class="form-control" placeholder="Endereço de E-mail" name="email">
 						</div>
 						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-							<input type="text" class="form-control" placeholder="Telefone">
-							<textarea class="form-control field" placeholder="Mensagem"></textarea>
+							<input type="text" class="form-control" placeholder="Telefone" name="phone">
+							<textarea class="form-control field" placeholder="Mensagem" name="msg"></textarea>
 						</div>
 						<div class="btn-block text-center">
 							<button class="buy_btn radial-out">Enviar</button>
 						</div>
 					</div>
 				</div>
+</form>
 				<div class="map_info">
 					<div class="cap_info">
 						<ul class="c_info">

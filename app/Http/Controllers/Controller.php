@@ -30,7 +30,7 @@ class Controller extends BaseController
       $data_category = [
         'origin' => $origin,
       ];
-      return view('criacao-de-site-cotacao',$data_category);
+      return view('all_brazil.criacao-de-site-cotacao',$data_category);
     }
     public function routes(Request $request){
       $transp = file_get_contents("https://cargas.com.br/api/cities/most-used-routes?limit=30");
@@ -59,7 +59,7 @@ class Controller extends BaseController
         'origin' => $origin,
       ];
       //$data['origin'] = $origin.','.$destination;
-      return view('consultoria-de-marketing-cotacao', $data_category);
+      return view('all_brazil.consultoria-de-marketing-cotacao', $data_category);
     }
     public function sendQuotation(){
       return view('cotacao-enviada');
@@ -72,26 +72,8 @@ class Controller extends BaseController
       return view('perfil-transportadoras',['json'=>$json,'companies'=>$companies]);
     }
     public function quotationApi(Request $request){
-      
-      //return $request->all();
-      Http::withHeaders([
-        'Accept' => 'application/json',
-        'content-type' => 'application/json'
-        ])->post('https://cargas.com.br/api/quotation',[
-        'origin'=>$request->origin,
-        'destination'=>$request->destination,
-        'origin_id'=>$request->origin_id,
-        'destination_id'=>$request->destination_id,
-        'note_cost'=>$request->note_cost,
-        'from'=>'transportadora.global',
-        'quantity'=>$request->quantity,
-        'weight'=>$request->weight,
-        'description'=>$request->description,
-        'type'=>$request->type,
-        'client'=>['name'=>$request->name,'email'=>$request->email,'phone'=>$request->phone]
-      ]);
-      //return $quotation;
-      return redirect()->route('sendQuotation');
+      return view('send_mail.send_mail');
+      //return redirect()->route('sendQuotation');
 
 
       //return view('cotation',['quotation'=>json_decode($quotation)])->withInput($request->all());

@@ -489,7 +489,7 @@
 			<div class="container">
 				<h2 class="global_title">Principais Cidades para Consultoria de Marketing</h2>
 				<h3 style="text-align:center; margin:100px 0 30px 0">Consultoria de Marketing nas Principais Cidades</h3>
-				<div class="row space-lg-3">
+				<div class="row">
 					<div class="col-lg-3 col-sm-6">
 						<div class="service_block">
 							<h3 style="font-size:1rem"><a href="{{url('/')}}/consultoria-de-marketing-em-ribeirao-preto">CONSULTORIA DE MARKETING EM RIBEIRÃO PRETO</a></h3>
