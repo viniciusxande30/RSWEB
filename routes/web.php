@@ -29,3 +29,4 @@ Route::get('consultoria-de-marketing-em-{origin}',[Controller::class,'consultori
 //Route::get('transportadoras/{companies}',[Controller::class,'companiesPerfil'])->name('companiesPerfil');
 //Route::get('/cotacao-enviada',[Controller::class,'sendQuotation'])->name('sendQuotation');
 //Route::post('cotacao',[Controller::class,'quotationApi'])->name('quotationApi');
+Route::redirect('/public', '/', 301);
