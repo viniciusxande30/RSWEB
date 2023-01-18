@@ -62,7 +62,7 @@ class Controller extends BaseController
       return view('all_brazil.consultoria-de-marketing-cotacao', $data_category);
     }
     public function sendQuotation(){
-      return view('cotacao-enviada');
+      return view('send_mail.cotacao-enviada');
     }
     public function companiesPerfil($companies){
       $transp = file_get_contents('https://cargas.com.br/api/companies?limit=500');
