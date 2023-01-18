@@ -1,7 +1,7 @@
 <section class="form_info form_inn">
 			<div class="container">
 				<h2 class="global_title">Entre em Contato Conosco</h2>
-                <form method="POST" action="{{url('/')}}/cotacao-enviada">
+                <form method="POST" action="{{url('/')}}/envio-cotacao">
                     @csrf
 				<div class="inner">
 					<div class="row">
