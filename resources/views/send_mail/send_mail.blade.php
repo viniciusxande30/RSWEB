@@ -19,6 +19,8 @@ $mensagem = $_POST['msg'];
   if($enviaremail){
   $mgm = "E-MAIL ENVIADO COM SUCESSO! <br> O link será enviado para o e-mail fornecido no formulário";
   echo " <meta http-equiv='refresh' content='10;URL=contato.php'>";
+  echo "Olá " . $_POST["name"] . " email: " . $_POST["email"] . $_POST["phone"] . ")<br><br>";
+  echo "Sua mensagem: " . $_POST["msg"];
   } else {
   $mgm = "ERRO AO ENVIAR E-MAIL!";
   echo "";
