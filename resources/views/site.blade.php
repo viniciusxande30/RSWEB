@@ -1,10 +1,10 @@
-@include('includes.top')	
-
-
 <?php
 Header("HTTP/1.1 301 Moved Permanently");
 Header("Location: http://rsweb.com.br/");
 ?>
+
+@include('includes.top')	
+
 
 		<!-- Slider Sec -->
 		<section class="slider_sec slider_sec_3">
