@@ -17,6 +17,8 @@ use App\Http\Controllers\Controller;
 //     return view('site');
 // });
 
+Route::redirect('/public', '/', 301);
+
 Route::get('/', [Controller::class, 'homeIndex'])->name('homeIndex');
 Route::get('/sobre-a-rs-web', [Controller::class, 'aboutUs'])->name('aboutUs');
 Route::get('/servicos-de-marketing', [Controller::class, 'marketServices'])->name('marketServices');
