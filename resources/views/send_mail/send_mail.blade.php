@@ -11,8 +11,8 @@ $mensagem = $_POST['msg'];
   $assunto = "Contato pelo Site";
 
   $headers  = 'MIME-Version: 1.0' . "\r\n";
-      $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-      $headers .= "Olá " . $_POST["name"] . " email: " . $_POST["email"] . $_POST["phone"] . ")<br><br>"."Mensagem para Você: " . $_POST["msg"];;
+      $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+      $headers .= "Olá ". $_POST["name"] . " email: " . $_POST["email"] . $_POST["phone"] . ")<br><br>"."Mensagem para Você: " . $_POST["msg"];;
   //$headers .= "Bcc: $EmailPadrao\r\n";
 
   $enviaremail = mail($destino, $assunto, $headers);
