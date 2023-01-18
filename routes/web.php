@@ -18,12 +18,14 @@ use App\Http\Controllers\Controller;
 // });
 
 Route::get('/', [Controller::class, 'homeIndex'])->name('homeIndex');
-//Route::get('/sobre-nos', [Controller::class, 'aboutUs'])->name('aboutUs');
+Route::get('/sobre-a-rs-web', [Controller::class, 'aboutUs'])->name('aboutUs');
+Route::get('/servicos-de-marketing', [Controller::class, 'marketServices'])->name('marketServices');
+
 //Route::get('/rotas', [Controller::class, 'routes'])->name('routes');
 //Route::get('/transportadoras', [Controller::class, 'companies'])->name('companies');
-//Route::get('/cotacao-de-frete', [Controller::class, 'cotation'])->name('cotation');
+Route::get('/consultoria-de-marketing-digital', [Controller::class, 'quotation'])->name('quotation');
 //Route::get('/cadastro', [Controller::class, 'register'])->name('register');
-//Route::get('transportadoras/{origin}/{destination}',[Controller::class,'transportadorasCotacao'])->name('transportadorasCotacao');
+Route::get('consultoria-de-marketing/{origin}',[Controller::class,'consultoriamktCotacao'])->name('consultoriamktCotacao');
 //Route::get('transportadoras/{companies}',[Controller::class,'companiesPerfil'])->name('companiesPerfil');
 //Route::get('/cotacao-enviada',[Controller::class,'sendQuotation'])->name('sendQuotation');
 //Route::post('cotacao',[Controller::class,'quotationApi'])->name('quotationApi');

@@ -1,56 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="theme-color" content="#5076db" />
-		<meta name="description" content="RS Web - Faça sua Consultoria de Marketing e SEO e alavanque os resultados da sua empresa, entre em contato conosco e faça seu orçamento gratuito!">
-		<meta name="keywords" content="Consultoria de Marketing, Consultoria de SEO, Agencia de Marketing">
-		<meta name="author" content="RS Web">
-		<title>RS Web - Consultoria de Marketing</title>
-		<link rel="shortcut icon" type="image/x-icon" href="{{url('/')}}/assets/images/favicon-rs-web-consultoria-de-marketing.webp" />
-		<!-- Bootstrap -->
-		<link href="{{url('/')}}/assets/css/bootstrap.css" rel="stylesheet">
-		<!-- font awesome -->
-		<link href="{{url('/')}}/assets/css/font-awesome.css" rel="stylesheet">
-		<!-- aos -->
-		<link href="{{url('/')}}/assets/css/aos.css" rel="stylesheet">
-		<!-- owl carousel -->
-		<link rel="stylesheet" href="{{url('/')}}/assets/css/owl.carousel.min.css">
-		<!-- stylesheet -->
-		<link href="{{url('/')}}/assets/css/style.css" rel="stylesheet">
-		<!-- layout stylesheet -->
-		<link href="{{url('/')}}/assets/css/layout_3.css" rel="stylesheet">
-		<!-- color stylesheet -->
-		<link id="skin-switcher-css" href="{{url('/')}}/assets/css/color-1.css" rel="stylesheet">
-		<!-- responsive stylesheet -->
-		<link href="{{url('/')}}/assets/css/responsive.css" rel="stylesheet">
-	</head>
-	<body>
-		<!-- Header -->
-		<header>
-			<div class="nav_sec">
-				<div class="container">
-					<nav class="navbar navbar-expand-lg navbar-light">
-						<a class="navbar-brand" href="index.html"><img src="{{url('/')}}/assets/images/rs-web-consultoria-de-marketing-white.webp" style="width:200px"></a>
-						<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#Navigation" aria-controls="Navigation" aria-expanded="false" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
-						<div class="collapse navbar-collapse" id="Navigation">
-							<ul class="navbar-nav ml-auto">
-						
-								<li class="nav-item"><a class="nav-link" href="about.html">Página Inicial</a></li>
-								<li class="nav-item"><a class="nav-link" href="about.html">Sobre Nós</a></li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">Serviços</a></li>
-								<li class="nav-item"><a class="nav-link" href="about.html">Portfólio</a></li>
-								<li class="nav-item"><a class="nav-link" href="about.html">Blog</a></li>
-								<li class="nav-item"><a class="nav-link" href="about.html">Faça sua Cotação</a></li>
-
-							</ul>
-						</div>
-					</nav>
-				</div>
-			</div>
-		</header>
+@include('includes.top')		
 		<!-- Slider Sec -->
 		<section class="slider_sec slider_sec_3">
 			<div class="owl-carousel hero_slider hero_slider_3">
@@ -538,37 +486,37 @@
 				<div class="row space-lg-3">
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block">
-							<h3 style="font-size:1rem"><a href="#">CONSULTORIA DE MARKETING EM RIBEIRÃO PRETO</a></h3>
+							<h3 style="font-size:1rem"><a href="{{url('/')}}/consultoria-de-marketing/ribeirao-preto">CONSULTORIA DE MARKETING EM RIBEIRÃO PRETO</a></h3>
 							<span>&#8640;</span>                    
 						</div>
 					</div>
                     <div class="col-lg-4 col-sm-6">
 						<div class="service_block">
-							<h3 style="font-size:1rem"><a href="#">CONSULTORIA DE MARKETING EM CAMPINAS</a></h3>
+							<h3 style="font-size:1rem"><a href="{{url('/')}}/consultoria-de-marketing/campinas">CONSULTORIA DE MARKETING EM CAMPINAS</a></h3>
 							<span>&#8640;</span>                    
 						</div>
 					</div>
                     <div class="col-lg-4 col-sm-6">
 						<div class="service_block">
-							<h3 style="font-size:1rem"><a href="#">CONSULTORIA DE MARKETING EM SP</a></h3>
+							<h3 style="font-size:1rem"><a href="{{url('/')}}/consultoria-de-marketing/sp">CONSULTORIA DE MARKETING EM SP</a></h3>
 							<span>&#8640;</span>                    
 						</div>
 					</div>
                     <div class="col-lg-4 col-sm-6">
 						<div class="service_block">
-							<h3 style="font-size:1rem"><a href="#">CONSULTORIA DE MARKETING EM FORTALEZA</a></h3>
+							<h3 style="font-size:1rem"><a href="{{url('/')}}/consultoria-de-marketing/fortaleza">CONSULTORIA DE MARKETING EM FORTALEZA</a></h3>
 							<span>&#8640;</span>                    
 						</div>
 					</div>
                     <div class="col-lg-4 col-sm-6">
 						<div class="service_block">
-							<h3 style="font-size:1rem"><a href="#">CONSULTORIA DE MARKETING EM CAMAÇARI</a></h3>
+							<h3 style="font-size:1rem"><a href="{{url('/')}}/consultoria-de-marketing/camacari">CONSULTORIA DE MARKETING EM CAMAÇARI</a></h3>
 							<span>&#8640;</span>                    
 						</div>
 					</div>
                     <div class="col-lg-4 col-sm-6">
 						<div class="service_block">
-							<h3 style="font-size:1rem"><a href="#">CONSULTORIA DE MARKETING EM CURITIBA</a></h3>
+							<h3 style="font-size:1rem"><a href="{{url('/')}}/consultoria-de-marketing/curitiba">CONSULTORIA DE MARKETING EM CURITIBA</a></h3>
 							<span>&#8640;</span>                    
 						</div>
 					</div>
@@ -602,110 +550,4 @@
 				</div>
 			</div>
 		</section>
-		<!-- Footer -->
-		<footer>
-			<section class="footer_detail footer_detail_3">
-				<div class="container">
-					<div class="inner">
-						<div class="row footer-space">
-							<div class="col-lg-3 col-sm-6">
-								<h3>Links Úteis</h3>
-								<div class="row">
-									<div class="col-6">
-										<ul class="footer_link">
-											<li><a href="#">Página Inicial</a></li>
-											<li><a href="#">Sobre Nós</a></li>
-											<li><a href="#">Serviços</a></li>
-											<li><a href="#">Portfólio</a></li>
-											<li><a href="#">Blog</a></li>
-											<li><a href="#">Entre em Contato</a></li>
-										</ul>
-									</div>
-									
-								</div>
-							</div>
-							<div class="col-lg-4 col-sm-6">
-								<h3>Contate-nos</h3>
-								<ul class="add_info">
-									<li><i class="fa fa-phone"></i>+55 73 99817-3109</li>
-									<li><i class="fa fa-envelope"></i><a href="mailto:Info@halari.com">comercial@rsweb.com.br</a></li>
-								</ul>
-							</div>
-							<div class="col-lg-2 col-sm-6">
-								<h3>Redes Sociais</h3>
-								<ul class="footer_social">
-									<li><a href="https://www.instagram.com/rsweb_oficial/"><i class="fa fa-instagram"></i> Instagram</a></li>
-								</ul>
-							</div>
-						</div>
-						<!-- Copyright -->
-						<div class="copyright">
-							Copyright © 2023 <span>RS Web</span> Todos os Direitos Reservados.            
-						</div>
-					</div>
-					<a href="javascript:void(0)" id="return-to-top"><span>&#8639;</span></a>
-				</div>
-			</section>
-		</footer>
-		<!-- Whatsapp -->
-		<div class="wc-style wc-right-bottom">
-			<!-- Start Floating Panel Container -->
-			<div class="wc-panel">
-				<!-- Panel Header -->
-				<div class="wc-header">
-					<strong>Precisando de Ajuda?</strong>
-					<p>Nos chame pelo WhatsApp</p>
-				</div>
-				<!-- Panel Content -->
-				<div class="wc-body">
-					<ul>
-						<!-- Start Single Contact List -->
-						<li>
-							<a class="wc-list" data-number="73998173109" data-message="Olá, vim do site RS Web saber mais detalhes!">
-								<div class="d-flex bd-highlight">
-									<!-- Profile Picture -->
-									<div class="wc-img-cont">
-										<img src="{{url('/')}}/assets/images/whatsapp/profile_01.jpg" class="wc-user-img" alt="Profile image">
-										<span class="wc-status-icon"></span>
-									</div>
-									<!-- Display Name & Last Seen -->
-									<div class="wc-user-info">
-										<span>Eequipe Comercial</span>
-										<p>Estamos Online</p>
-									</div>
-									<!-- Chat iCon -->
-									<div class="wc-chat-icon">
-										<i class="fa fa-whatsapp"></i>
-									</div>
-								</div>
-							</a>
-						</li>
-						<!--/ End Single Contact List -->
-					</ul>
-				</div>
-			</div>
-			<!--/ End Floating Panel Container -->
-			<!-- Start Right Floating Button-->
-			<div class="wc-right-bottom">
-				<div class="wc-box">
-					<div class="wc-button rotateBackward">
-						<i class="fa fa-whatsapp"></i>
-					</div>
-				</div>
-			</div>
-			<!--/ End Right Floating Button-->
-		</div>
-		<!-- Whatsapp end -->
-		<!-- Js -->
-		<script src="{{url('/')}}/assets/js/jquery-3.1.0.min.js"></script>
-		<script src="{{url('/')}}/assets/js/popper.min.js"></script>
-		<script src="{{url('/')}}/assets/js/bootstrap.min.js"></script>
-		<script src="{{url('/')}}/assets/js/owl.carousel.js"></script>
-		<script src="{{url('/')}}/assets/js/aos.js"></script>
-		<!-- theme Whatsapp chat -->
-		<script src="{{url('/')}}/assets/js/whatsappchat.js"></script>
-		<!-- theme script -->
-		<script src="{{url('/')}}/assets/js/change_color.js"></script>
-		<script src="{{url('/')}}/assets/js/script.js"></script>
-	</body>
-</html>
+@include('includes.footer')
