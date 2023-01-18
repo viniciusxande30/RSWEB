@@ -23,6 +23,15 @@ class Controller extends BaseController
     public function marketServices(){
       return view('servicos-de-marketing');
     }
+    public function sitesCreate(){
+      return view('criacao-de-sites');
+    }
+    public function sitescreateQuotation($origin){
+      $data_category = [
+        'origin' => $origin,
+      ];
+      return view('criacao-de-site-cotacao',$data_category);
+    }
     public function routes(Request $request){
       $transp = file_get_contents("https://cargas.com.br/api/cities/most-used-routes?limit=30");
       

@@ -28,19 +28,32 @@
 		<link href="{{url('/')}}/assets/css/responsive.css" rel="stylesheet">
 	</head>
 	<body>
-		<!-- Header -->
+
 		<header>
 			<div class="nav_sec">
 				<div class="container">
 					<nav class="navbar navbar-expand-lg navbar-light">
-						<a class="navbar-brand" href="index.html"><img src="{{url('/')}}/assets/images/rs-web-consultoria-de-marketing-white.webp" style="width:200px"></a>
+					<a class="navbar-brand" href="index.html"><img src="{{url('/')}}/assets/images/rs-web-consultoria-de-marketing-white.webp" style="width:200px"></a>
 						<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#Navigation" aria-controls="Navigation" aria-expanded="false" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
 						<div class="collapse navbar-collapse" id="Navigation">
 							<ul class="navbar-nav ml-auto">
-						
-								<li class="nav-item"><a class="nav-link" href="{{url('/')}}">Página Inicial</a></li>
-								<li class="nav-item"><a class="nav-link" href="{{url('/')}}/sobre-a-rs-web">Sobre Nós</a></li>
-                                <li class="nav-item"><a class="nav-link" href="{{url('/')}}/servicos-de-marketing">Serviços</a></li>
+								
+							<li class="nav-item"><a class="nav-link" href="{{url('/')}}">Página Inicial</a></li>
+							<li class="nav-item"><a class="nav-link" href="{{url('/')}}/sobre-a-rs-web">Sobre Nós</a></li>
+
+
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle" href="service.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Serviços de Marketing                        </a>
+									<div class="dropdown-menu" aria-labelledby="navbarDropdown" style="display: none;">
+									<a class="dropdown-item" href="{{url('/')}}/criacao-de-sites">Consultoria de Marketing - Criação de Sites</a>
+										<a class="dropdown-item" href="{{url('/')}}/consultoria-seo">Consultoria de Marketing - Consultoria SEO</a>
+										<a class="dropdown-item" href="{{url('/')}}/trafego-pago">Consultoria de Marketing - Tráfego Pago</a>
+										<a class="dropdown-item" href="{{url('/')}}/midias-sociais">Consultoria de Marketing - Mídias Sociais</a>
+										<a class="dropdown-item" href="{{url('/')}}/criacao-de-sistemas">Consultoria de Marketing - Criação de Sistemas</a>
+										<a class="dropdown-item" href="{{url('/')}}/design-grafico">Consultoria de Marketing - Design Gráfico</a>
+									</div>
+								</li>
 								<li class="nav-item"><a class="nav-link" href="{{url('/')}}/">Portfólio</a></li>
 								<li class="nav-item"><a class="nav-link" href="{{url('/')}}/blog">Blog</a></li>
 								<li class="nav-item"><a class="nav-link" href="{{url('/')}}/consultoria-de-marketing-digital">Faça sua Cotação</a></li>

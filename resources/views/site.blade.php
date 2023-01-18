@@ -605,24 +605,5 @@
 		</section>
 
 
-
-		<!-- Form Info -->
-		<section class="form_info form_info_3">
-			<div class="container">
-				<h2 class="global_title">Entre em Contato Conosco</h2>
-				<div class="row">
-					<div class="col-md-6 col-sm-12">
-						<input type="text" class="form-control" placeholder="Seu Nome">
-						<input type="text" class="form-control" placeholder="E-mail">
-					</div>
-					<div class="col-md-6 col-sm-12">
-						<input type="text" class="form-control" placeholder="Telefone">
-						<textarea class="form-control field" placeholder="Mensagem"></textarea>
-					</div>
-					<div class="btn-block text-center">
-						<button class="buy_btn radial-out">Enviar</button>
-					</div>
-				</div>
-			</div>
-		</section>
+@include('includes.form')
 @include('includes.footer')
