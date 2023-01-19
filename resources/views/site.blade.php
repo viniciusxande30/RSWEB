@@ -52,17 +52,17 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block">
 							<figure></figure>
-							<h3><a href="#">Consultoria de Marketing | Criação de Sites</a> </h3>
+							<h3><a href="{{url('/')}}/criacao-de-sites">Consultoria de Marketing | Criação de Sites</a> </h3>
 							<p>Trabalhamos com Consultoria de Marketing Digital e Criação de Sites Profissionais.</p>
-							<a href="#" class="move_link"><span>&#8640;</span></a>                    
+							<a href="{{url('/')}}/criacao-de-sites" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>
                     <div class="col-lg-4 col-sm-6">
 						<div class="service_block">
 							<figure></figure>
-							<h3><a href="#">Consultoria de Marketing | Consultoria SEO</a> </h3>
+							<h3><a href="{{url('/')}}/consultoria-seo">Consultoria de Marketing | Consultoria SEO</a> </h3>
 							<p>Apareça no Google! Fazemos a Consutoria em Marketing Digital e Trabalhamos o Seu Site Gerar mais Tráfego Para o seu Site.</p>
-							<a href="#" class="move_link"><span>&#8640;</span></a>                    
+							<a href="{{url('/')}}/consultoria-seo" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
@@ -543,7 +543,7 @@
 			<div class="container">
 
 			<h3 style="text-align:center; margin:100px 0 30px 0">Criação de Sites nas Principais Cidades</h3>
-				<div class="row space-lg-3">
+				<div class="row">
 					<div class="col-lg-3 col-sm-6">
 						<div class="service_block">
 							<h3 style="font-size:1rem"><a href="{{url('/')}}/criacao-de-sites-em-ribeirao-preto">CRIAÇÃO DE SITES EM BELÉM</a></h3>
@@ -572,7 +572,7 @@
 			</div>
 			<div class="container">
 			<h3 style="text-align:center; margin:100px 0 30px 0">Consultoria SEO nas Principais Cidades</h3>
-				<div class="row space-lg-3">
+				<div class="row">
 					<div class="col-lg-3 col-sm-6">
 						<div class="service_block">
 							<h3 style="font-size:1rem"><a href="{{url('/')}}/consultoria-seo-em-ribeirao-preto">CONSULTORIA SEO EM CAMPINA GRANDE</a></h3>
