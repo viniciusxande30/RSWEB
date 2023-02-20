@@ -31,6 +31,13 @@ Route::get('consultoria-de-marketing-em-{origin}',[Controller::class,'consultori
 Route::get('criacao-de-sites',[Controller::class,'sitesCreate'])->name('sitesCreate');
 Route::get('criacao-de-sites-em-{origin}',[Controller::class,'sitescreateQuotation'])->name('sitescreateQuotation');
 
+Route::get('consultoria-seo',[Controller::class,'consultoriaSEO'])->name('consultoriaSEO');
+Route::get('trafego-pago',[Controller::class,'trafegoPago'])->name('trafegoPago');
+Route::get('midias-sociais',[Controller::class,'midiasSociais'])->name('midiasSociais');
+Route::get('criacao-de-sistemas',[Controller::class,'criacaodeSistemas'])->name('criacaodeSistemas');
+Route::get('design-grafico',[Controller::class,'designGrafico'])->name('designGrafico');
+
+
 //Route::get('transportadoras/{companies}',[Controller::class,'companiesPerfil'])->name('companiesPerfil');
 Route::get('/cotacao-enviada',[Controller::class,'sendQuotation'])->name('sendQuotation');
 Route::post('/envio-cotacao',[Controller::class,'quotationApi'])->name('quotationApi');

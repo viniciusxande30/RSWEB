@@ -98,4 +98,24 @@ $mensagem = $_POST['msg'];
   }
     return redirect()->route('sendQuotation');
     }
+
+
+    public function consultoriaSEO(){
+      return view('consultoria-seo');
+    }
+    public function trafegoPago(){
+      return view('trafego-pago');
+    }
+    public function midiasSociais(){
+      return view('midias-sociais');
+    }
+    public function criacaodeSistemas(){
+      return view('criacao-de-sistemas');
+    }
+    public function designGrafico(){
+      return view('design-grafico');
+    }
+
+
+
 }

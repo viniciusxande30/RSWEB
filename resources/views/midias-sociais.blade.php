@@ -3,10 +3,10 @@
 
 <section class="inner_banner">
 			<div class="container">
-				<h1>Criação de Sites</span></h1>
+				<h1>Mídias Sociais</span></h1>
 				<ul class="breadcrum">
 					<li><a href="{{url('/')}}">Página Inicial</a></li>
-					<li>Criação de Sites</li>
+					<li>Mídias Sociais</li>
 				</ul>
 			</div>
 		</section>
@@ -14,12 +14,12 @@
 <!-- Service Sec -->
 <section class="service_sec">
 			<div class="container">
-				<h2 class="global_title">Criação de Sites | O que temos a oferecer para sua Empresa</h2>
+				<h2 class="global_title">Mídias Sociais | O que temos a oferecer para sua Empresa</h2>
 				<div class="row space-lg-3">
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block">
 							<figure></figure>
-							<h3>CRIAÇÃO DE SITES – TENHA SITES QUE DÃO RESULTADO</h3>
+							<h3>Mídias Sociais - Personalizamos suas Redes de Comunicação</h3>
 							<p>Trabalhamos com os melhores profissionais do mercado e com as melhores tecnologias para resolver seu problema. Venha conferir!</p>
 							<a href="#" class="move_link"><span>&#8640;</span></a>                    
 						</div>
