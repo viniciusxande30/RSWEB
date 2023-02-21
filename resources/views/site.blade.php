@@ -12,8 +12,8 @@
 								<div class="inner inner-text-left">
 									<h1 style="font-size:40px">Tenha Visibilidade <span>Consultoria de Marketing</span></h1>
 									<p>Precisando Divulgar o seu Negócio? Estamos a 8 anos trabalhando com soluções e Consultoria de Marketing para empresas, faça seu orçamento!</p>
-									<a href="#" class="store_btn green radial-out"><i class="fa fa-rocket"></i>Agende sua<strong> Consultoria de Marketing</strong></a>
-                                    <a href="#" class="store_btn radial-out"><i class="fa fa-signal"></i>Conheça Nossas <strong>Soluções</strong></a>
+									<a href="https://api.whatsapp.com/send?phone=5573998173109&text=Ol%C3%A1,%20vim%20do%20site%20RS%20Web%20Saber%20mais%20Detalhes!" class="store_btn green radial-out"><i class="fa fa-rocket"></i>Agende sua<strong> Consultoria de Marketing</strong></a>
+                                    <a href="{{url('/')}}/#nossos-servicos" class="store_btn radial-out"><i class="fa fa-signal"></i>Conheça Nossas <strong>Soluções</strong></a>
                     
 								</div>
 							</div>
@@ -45,7 +45,7 @@
 			</div>
 		</section>
 		<!-- Service Sec -->
-<section class="service_sec">
+<section class="service_sec" id="nossos-servicos">
 			<div class="container">
 				<h2 class="global_title">Nossos Serviços de Consultoria de Marketing Digital</h2>
 				<div class="row space-lg-3">
@@ -68,33 +68,33 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block service_block_2">
 							<figure></figure>
-							<h3><a href="#">Consultoria da Marketing | Tráfego Pago</a> </h3>
+							<h3><a href="{{url('/')}}/trafego-pago">Consultoria da Marketing | Tráfego Pago</a> </h3>
 							<p>Invista em tráfego pago e venda mais! Trabalhamos com Google ADS, Facebook ADS e Instagram ADS. Entre em Contato e Faça seu Orçamento Gratuito!</p>
-							<a href="#" class="move_link"><span>&#8640;</span></a>                    
+							<a href="{{url('/')}}/trafego-pago" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block service_block_3">
 							<figure></figure>
-							<h3><a href="#">Consultoria de Marketing | Mídias Sociais</a> </h3>
+							<h3><a href="{{url('/')}}/midias-sociais">Consultoria de Marketing | Mídias Sociais</a> </h3>
 							<p>Torne suas Mídias Sociais mais Profissionais, Entre em Contato Conosco e Faça sua Consultoria Exclusiva de Marketing.</p>
-							<a href="#" class="move_link"><span>&#8640;</span></a>                    
+							<a href="{{url('/')}}/midias-sociais" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block service_block_4">
 							<figure></figure>
-							<h3><a href="#">Consultoria de Marketing | Criação de Sistemas Web</a> </h3>
+							<h3><a href="{{url('/')}}/criacao-de-sistemas">Consultoria de Marketing | Criação de Sistemas Web</a> </h3>
 							<p>Saiba Quem é a Sua Concorrência no Google, Fazemos a sua Auditoria Totalmente personalizada em nossa Consultoria de Marketing.</p>
-							<a href="#" class="move_link"><span>&#8640;</span></a>                    
+							<a href="{{url('/')}}/criacao-de-sistemas" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block service_block_5">
 							<figure></figure>
-							<h3><a href="#">Consultoria de Marketing | Design Gráfico</a></h3>
+							<h3><a href="{{url('/')}}/design-grafico">Consultoria de Marketing | Design Gráfico</a></h3>
 							<p>Invista na Identidade Visual do seu Negócio. Fazemos Logotipos Personalizados para Você, Entre em Contato Conosco!</p>
-							<a href="#" class="move_link"><span>&#8640;</span></a>                    
+							<a href="{{url('/')}}/design-grafico" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>
 				</div>
@@ -157,7 +157,7 @@
 		</section>
 		
 		<!-- Team Sec -->
-		<section class="team_sec">
+		<section class="team_sec" id="nossos-clientes">
 			<div class="container">
 				<h2 class="global_title">Alguns de Nossos Clientes </h2>
 				<div class="inner">
@@ -322,7 +322,7 @@
 						<div class="item">
 							<div class="package_block">
 								<h3>Meta Ouro</h3>
-								<div class="price">R$3.500,00 <small>/mês</small> </div>
+								<div class="price">CONFIRA<small>/mês</small> </div>
 								<ul class="package_list">
 								<li><i class="fa fa-check" aria-hidden="true"></i>Consultoria de Marketing em SEO</li>
 									<li><i class="fa fa-check" aria-hidden="true"></i>Pacote de Redação</li>
@@ -338,7 +338,7 @@
 						<div class="item">
 							<div class="package_block">
 								<h3>Meta Prata</h3>
-								<div class="price">R$2.499,90<small>/mês</small></div>
+								<div class="price">CONFIRA<small>/mês</small></div>
 								<ul class="package_list">
 									<li><i class="fa fa-check" aria-hidden="true"></i>Consultoria de Marketing em SEO Exclusiva</li>
 									<li><i class="fa fa-check" aria-hidden="true"></i>Pacote de Redação</li>
@@ -354,7 +354,7 @@
 						<div class="item">
 							<div class="package_block">
 								<h3>Meta Bronze</h3>
-								<div class="price"> R$1.499,90 <small>/mês</small> </div>
+								<div class="price"> CONFIRA <small>/mês</small> </div>
 								<ul class="package_list">
 									<li><i class="fa fa-check" aria-hidden="true"></i>Consultoria de Marketing em SEO Exclusiva</li>
 									<li><i class="fa fa-check" aria-hidden="true"></i>Pacote de Redação</li>
@@ -422,7 +422,7 @@
 				<div class="work-info">
 					<h2 class="global_title white">Consultoria de Marketing Gratuita Exclusiva</h2>
 					<p>Venha ter mais resultados! Temos como Presente uma Consultoria de Marketing Exclusiva Para Sua Empresa, Confira! </p>
-					<a href="#" class="buy_btn radial-out">Agendar Consultoria Exclusiva</a>    
+					<a href="https://api.whatsapp.com/send?phone=5573998173109&text=Ol%C3%A1,%20vim%20do%20site%20RS%20Web%20Saber%20mais%20Detalhes!" class="buy_btn radial-out">Agendar Consultoria Exclusiva</a>    
 				</div>
 			</div>
 		</section>

@@ -3,10 +3,10 @@
 
 <section class="inner_banner">
 			<div class="container">
-				<h1>Criação de Sites</span></h1>
+				<h1>Design Gráfico</span></h1>
 				<ul class="breadcrum">
 					<li><a href="{{url('/')}}">Página Inicial</a></li>
-					<li>Criação de Sites</li>
+					<li>Design Gráfico</li>
 				</ul>
 			</div>
 		</section>
@@ -14,29 +14,29 @@
 <!-- Service Sec -->
 <section class="service_sec">
 			<div class="container">
-				<h2 class="global_title">Criação de Sites | O que temos a oferecer para sua Empresa</h2>
+				<h2 class="global_title">Design Gráfico | O que temos a oferecer para sua Empresa</h2>
 				<div class="row space-lg-3">
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block">
 							<figure></figure>
-							<h3>CRIAÇÃO DE SITES – TENHA SITES QUE DÃO RESULTADO</h3>
-							<p>Trabalhamos com os melhores profissionais do mercado e com as melhores tecnologias para resolver seu problema. Venha conferir!</p>
+							<h3>Destaque-se da concorrência com uma identidade visual forte</h3>
+							<p>O serviço de design gráfico pode ajudar as empresas a criar uma identidade visual forte e diferenciada, aumentando o reconhecimento da marca e destacando-se da concorrência.</p>
 							<a href="#" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>
                     <div class="col-lg-4 col-sm-6">
 						<div class="service_block">
 							<figure></figure>
-							<h3>CRIAÇÃO DE SITES – CUSTO BENEFÍCIO</h3>
-							<p>Diferente das agências de marketing que não entregam o prometido, você terá suporte 24 horas por WhatsApp ou E-mail, disponível para responder todas as suas dúvidas.</p>
+							<h3>Comunique sua mensagem de forma clara e eficaz</h3>
+							<p>O design gráfico pode ajudar as empresas a comunicar sua mensagem de forma clara e eficaz, através do uso de imagens, cores e tipografia adequadas.</p>
 							<a href="#" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block service_block_3">
 							<figure></figure>
-							<h3>CRIAÇÃO DE SITES – TECNOLOGIA</h3>
-							<p>Quando o assunto é tecnologia e agilidade nossos profissionais trabalham duro para trazer os melhores benefícios que a tecnologia de ponta pode te proporcionar.</p>
+							<h3>Aumente a confiança do cliente</h3>
+							<p>O design gráfico pode ajudar as empresas a transmitir profissionalismo e confiança aos clientes, através de materiais de marketing e comunicação visualmente atraentes e bem projetados.</p>
 							<a href="#" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>

@@ -9,12 +9,12 @@
 								<div class="row">
 									<div class="col-6">
 										<ul class="footer_link">
-											<li><a href="#">Página Inicial</a></li>
-											<li><a href="#">Sobre Nós</a></li>
-											<li><a href="#">Serviços</a></li>
-											<li><a href="#">Portfólio</a></li>
-											<li><a href="#">Blog</a></li>
-											<li><a href="#">Entre em Contato</a></li>
+											<li><a href="{{url('/')}}">Página Inicial</a></li>
+											<li><a href="{{url('/')}}/sobre-a-rs-web">Sobre Nós</a></li>
+											<li><a href="{{url('/')}}/#nossos-servicos">Serviços</a></li>
+											<li><a href="{{url('/')}}/#nossos-clientes">Portfólio</a></li>
+											<li><a href="https://blog.rsweb.com.br/blog/">Blog</a></li>
+											<li><a href="{{url('/')}}/consultoria-de-marketing-digital">Entre em Contato</a></li>
 										</ul>
 									</div>
 									
@@ -36,7 +36,7 @@
 						</div>
 						<!-- Copyright -->
 						<div class="copyright">
-							Copyright © 2023 <span>RS Web</span> Todos os Direitos Reservados.            
+							Copyright © 2023 <span><a href="{{url('/')}}">RS Web</a></span> Todos os Direitos Reservados.            
 						</div>
 					</div>
 					<a href="javascript:void(0)" id="return-to-top"><span>&#8639;</span></a>

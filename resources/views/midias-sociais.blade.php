@@ -19,24 +19,24 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block">
 							<figure></figure>
-							<h3>Mídias Sociais - Personalizamos suas Redes de Comunicação</h3>
-							<p>Trabalhamos com os melhores profissionais do mercado e com as melhores tecnologias para resolver seu problema. Venha conferir!</p>
+							<h3>Construa uma presença forte e consistente online</h3>
+							<p> A gestão de mídias sociais permite que as empresas criem uma presença forte e consistente na internet, aumentando a visibilidade da marca e atraindo mais clientes em potencial.</p>
 							<a href="#" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>
                     <div class="col-lg-4 col-sm-6">
 						<div class="service_block">
 							<figure></figure>
-							<h3>CRIAÇÃO DE SITES – CUSTO BENEFÍCIO</h3>
-							<p>Diferente das agências de marketing que não entregam o prometido, você terá suporte 24 horas por WhatsApp ou E-mail, disponível para responder todas as suas dúvidas.</p>
+							<h3>Mantenha seus clientes engajados e informados</h3>
+							<p>A gestão de mídias sociais permite que as empresas se comuniquem diretamente com seus clientes, mantendo-os engajados e informados sobre produtos, serviços e novidades da empresa.</p>
 							<a href="#" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="service_block service_block_3">
 							<figure></figure>
-							<h3>CRIAÇÃO DE SITES – TECNOLOGIA</h3>
-							<p>Quando o assunto é tecnologia e agilidade nossos profissionais trabalham duro para trazer os melhores benefícios que a tecnologia de ponta pode te proporcionar.</p>
+							<h3>Aproveite o poder do marketing digital</h3>
+							<p>A gestão de mídias sociais é uma forma eficaz de marketing digital, permitindo que as empresas criem campanhas publicitárias direcionadas e alcancem seu público-alvo de maneira mais eficiente.</p>
 							<a href="#" class="move_link"><span>&#8640;</span></a>                    
 						</div>
 					</div>

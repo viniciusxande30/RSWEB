@@ -33,7 +33,7 @@
 			<div class="nav_sec">
 				<div class="container">
 					<nav class="navbar navbar-expand-lg navbar-light">
-					<a class="navbar-brand" href="index.html"><img src="{{url('/')}}/assets/images/rs-web-consultoria-de-marketing-white.webp" style="width:200px"></a>
+					<a class="navbar-brand" href="{{url('/')}}"><img src="{{url('/')}}/assets/images/rs-web-consultoria-de-marketing-white.webp" style="width:200px"></a>
 						<button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#Navigation" aria-controls="Navigation" aria-expanded="false" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
 						<div class="collapse navbar-collapse" id="Navigation">
 							<ul class="navbar-nav ml-auto">
@@ -54,8 +54,8 @@
 										<a class="dropdown-item" href="{{url('/')}}/design-grafico">Consultoria de Marketing - Design Gráfico</a>
 									</div>
 								</li>
-								<li class="nav-item"><a class="nav-link" href="{{url('/')}}/">Portfólio</a></li>
-								<li class="nav-item"><a class="nav-link" href="{{url('/')}}/blog">Blog</a></li>
+								<li class="nav-item"><a class="nav-link" href="{{url('/')}}/#nossos-clientes">Portfólio</a></li>
+								<li class="nav-item"><a class="nav-link" href="https://blog.rsweb.com.br/blog/">Blog</a></li>
 								<li class="nav-item"><a class="nav-link" href="{{url('/')}}/consultoria-de-marketing-digital">Faça sua Cotação</a></li>
 							</ul>
 						</div>
@@ -63,3 +63,8 @@
 				</div>
 			</div>
 		</header>
+		<style>
+			html {
+			scroll-behavior: smooth;
+			}
+		</style>

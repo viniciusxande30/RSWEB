@@ -32,6 +32,15 @@ class Controller extends BaseController
       ];
       return view('all_brazil.criacao-de-site-cotacao',$data_category);
     }
+
+    public function seocreateQuotation($origin){
+      $data_category = [
+        'origin' => $origin,
+      ];
+      return view('all_brazil.consultoria-seo-cotacao',$data_category);
+    }
+
+
     public function routes(Request $request){
       $transp = file_get_contents("https://cargas.com.br/api/cities/most-used-routes?limit=30");
       

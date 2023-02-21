@@ -32,6 +32,9 @@ Route::get('criacao-de-sites',[Controller::class,'sitesCreate'])->name('sitesCre
 Route::get('criacao-de-sites-em-{origin}',[Controller::class,'sitescreateQuotation'])->name('sitescreateQuotation');
 
 Route::get('consultoria-seo',[Controller::class,'consultoriaSEO'])->name('consultoriaSEO');
+Route::get('consultoria-seo-em-{origin}',[Controller::class,'seocreateQuotation'])->name('seocreateQuotation');
+
+
 Route::get('trafego-pago',[Controller::class,'trafegoPago'])->name('trafegoPago');
 Route::get('midias-sociais',[Controller::class,'midiasSociais'])->name('midiasSociais');
 Route::get('criacao-de-sistemas',[Controller::class,'criacaodeSistemas'])->name('criacaodeSistemas');
