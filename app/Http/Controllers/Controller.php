@@ -93,11 +93,16 @@ $mensagem = $_POST['msg'];
   $destino = $emailenviar;
   $assunto = "Contato pelo Site";
 
-  $headers = 'From: Titulo da aplicacao <no-reply@dominio.com>'."\r\n" .
-        'Reply-To: no-reply@dominio.com '. "\r\n" .
-        'X-Mailer: MyFunction/' . phpversion().
-        'MIME-Version: 1.0' . "\n".
-        'Content-type: text/html; charset=UTF-8' . "\r\n";
+  
+
+  $headers = 'From: Contato de Lead para a RS Web <comercial@rsweb.com.br>'."\r\n" .
+  'Reply-To: comercial@rsweb.com.br '. "\r\n" .
+  'X-Mailer: MyFunction/' . phpversion().
+  'MIME-Version: 1.0' . "\n".
+  'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+  $headers .= "Olá " . $_POST["name"] . " email: " . $_POST["email"] . $_POST["phone"] . ")<br><br>"."Mensagem para Você: " . $_POST["msg"];;
+  //$headers .= "Bcc: $EmailPadrao\r\n";
 
   $enviaremail = mail($destino, $assunto, $headers);
   if($enviaremail){
