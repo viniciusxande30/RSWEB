@@ -42,7 +42,7 @@
 								<div class="detail">
 									<span class="icon">
 										<i class="fa fa-envelope"></i></span> 
-									<span class="text"><a href="mailto:Info@halari.com">comercial@rsweb.com.br</a>
+									<span class="text"><a href="mailto:comercial@rsweb.com.br">comercial@rsweb.com.br</a>
 									</span>
 							</div></li>
 						</ul>
