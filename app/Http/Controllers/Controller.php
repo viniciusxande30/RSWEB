@@ -89,7 +89,7 @@ $email = $_POST['email'];
 $telefone = $_POST['phone'];
 $mensagem = $_POST['msg'];
   
-  $emailenviar = "comercial@rsweb.com.br";
+  $emailenviar = "rsfreelas@gmail.com";
   $destino = $emailenviar;
   $assunto = "Contato pelo Site";
 
