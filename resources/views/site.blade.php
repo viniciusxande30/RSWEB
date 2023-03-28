@@ -427,7 +427,7 @@
 			</div>
 		</section>
 		<!-- Blog Sec -->
-		<section class="blog_sec  blog_sec_owl">
+		<!-- <section class="blog_sec  blog_sec_owl">
 			<div class="container">
 				<h2 class="global_title">Nosso Blog</h2>
 				<div class="inner">
@@ -480,7 +480,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 <!-- Service Sec -->
 

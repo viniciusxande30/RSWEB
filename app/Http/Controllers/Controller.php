@@ -8,6 +8,8 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Support\Facades\Mail;
+
 
 class Controller extends BaseController
 {
@@ -104,13 +106,13 @@ $mensagem = $_POST['msg'];
   $headers .= "Olá " . $_POST["name"] . " email: " . $_POST["email"] . $_POST["phone"] . ")<br><br>"."Mensagem para Você: " . $_POST["msg"];;
   //$headers .= "Bcc: $EmailPadrao\r\n";
 
-  $enviaremail = mail($destino, $assunto, $headers);
-  if($enviaremail){
-          echo "Enviado com Sucesso";
-  } else {
-  $mgm = "ERRO AO ENVIAR E-MAIL!";
-  echo "";
-  }
+  
+  Mail::raw('Nova Simulação da RS Web'.'Nome: '.$_POST['name'].' - Telefone: '.$_POST['phone'].'- E-mail : '.$_POST['email'].'- Mensagem : '.$_POST['msg'], function ($message){
+    $message->to('comercial@rsweb.com.br')
+  ->subject('Nova Cotação da RS Web')
+  ->from('comercial@rsweb.com.br');
+  });
+
     return redirect()->route('sendQuotation');
     }
 
