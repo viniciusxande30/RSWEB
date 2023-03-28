@@ -82,29 +82,18 @@ class Controller extends BaseController
       //$json_details = json_decode($transp_details);
       return view('perfil-transportadoras',['json'=>$json,'companies'=>$companies]);
     }
-    public function quotationApi(Request $request){
+    public function quotationApi(){
 
       //Variáveis
 
-$nome = $_POST['name'];
-$email = $_POST['email'];
-$telefone = $_POST['phone'];
-$mensagem = $_POST['msg'];
+//$nome = $_POST['name'];
+//$email = $_POST['email'];
+//$telefone = $_POST['phone'];
+//$mensagem = $_POST['msg'];
   
-  $emailenviar = "rsfreelas@gmail.com";
-  $destino = $emailenviar;
-  $assunto = "Contato pelo Site";
-
-  
-
-  $headers = 'From: Contato de Lead para a RS Web <comercial@rsweb.com.br>'."\r\n" .
-  'Reply-To: comercial@rsweb.com.br '. "\r\n" .
-  'X-Mailer: MyFunction/' . phpversion().
-  'MIME-Version: 1.0' . "\n".
-  'Content-type: text/html; charset=UTF-8' . "\r\n";
-
-  $headers .= "Olá " . $_POST["name"] . " email: " . $_POST["email"] . $_POST["phone"] . ")<br><br>"."Mensagem para Você: " . $_POST["msg"];;
-  //$headers .= "Bcc: $EmailPadrao\r\n";
+  //$emailenviar = "rsfreelas@gmail.com";
+  //$destino = $emailenviar;
+  //$assunto = "Contato pelo Site";
 
   
   Mail::raw('Nova Simulação da RS Web'.'Nome: '.$_POST['name'].' - Telefone: '.$_POST['phone'].'- E-mail : '.$_POST['email'].'- Mensagem : '.$_POST['msg'], function ($message){
